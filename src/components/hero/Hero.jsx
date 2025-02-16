@@ -1,14 +1,14 @@
 import React from 'react'
 import Coffee from "../../assets/coffee.svg"
+import Long from "../../assets/long.svg"
+import Green from "../../assets/green.svg"
 
 const Hero = () => {
   return (
-    <div className='app-container'>
-      <div  className="">
-
+    <div className='app-container pt-15'>
       <div>
         <p
-          className='w-[543px] h-[176px] m-auto relative top-[80px] right-[200px]
+          className='app-container m-auto relative top-[80px] left-32.5
          text-white  font-[Montserrat] font-extrabold text-[80px] leading-[87.58px]'
         >
           New Cafe
@@ -24,9 +24,8 @@ const Hero = () => {
         </p>
 
         <div className='w-[1200px] m-auto relative'>
-
         <p
-          className='w-[600px] h-[66px] relative top-[150px] left-[140px]
+          className='w-[600px] h-[66px] relative top-[150px] left-[40px]
          text-[#D9D9D9] font-[Montserrat] font-normal text-[20px] leading-[33px]'
         >
           Have time to buy the most harmonious drinks in the new Starbucks
@@ -34,9 +33,8 @@ const Hero = () => {
         </p>
 
         <div className="bottom-[70px] absolute">
-
           <button
-            className='w-[334px] h-[74.65px] relative top-[350px] left-[140px] 
+            className='w-[334px] h-[74.65px] relative top-[350px] left-[40px] 
         rounded-[83px]  bg-gradient-to-r from-[#35C66B] to-[#237249]
         text-[24px] leading-[36px] font-[Montserrat]  font-semibold cursor-pointer 
          text-[#FFFFFF]'
@@ -46,9 +44,8 @@ const Hero = () => {
 
           <button
             className='text-[24px] text-[#D9D9D9] leading-[36px] font-[Montserrat] cursor-pointer font-normal 
-           w-[168px] h-[75px] absolute top-[350px] left-[500px] rounded-[83px] bg-[#121517] 
+           w-[168px] h-[75px] absolute top-[350px] left-[400px] rounded-[83px] bg-[#121517] 
            border'
-        
           >
             More
           </button>
@@ -88,10 +85,12 @@ const Hero = () => {
         </div>
 
       </div>
-
-        <img className="relative left-225 mt-[-400px]" src={Coffee} alt="" />
+        <img className="relative left-225 mt-[-370px] z-40" src={Coffee} alt="" />
+        <div>
+        <img className="relative left-200 bottom-118" src={Long} alt="" />
+        <img className="relative bottom-300 left-212.5 " src={Green} alt="" />
+        </div>
       </div>
-    </div>
   )
 }
 

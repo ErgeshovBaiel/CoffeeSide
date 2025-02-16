@@ -2,8 +2,8 @@
 @import "tailwindcss";
 
 .app-container {
-    width: 1200px;
-    margin: auto;
+    width: 1400px;
+    margin: 0 auto;
 }
 
 body {
